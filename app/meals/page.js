@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Suspense } from "react";
 
 async function Meals() {
-  const meals = await getMeals();
+  const meals = getMeals();
   return <MealsGrid meals={meals} />
 }
 

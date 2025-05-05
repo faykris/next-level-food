@@ -37,3 +37,7 @@ next-env.d.ts
 
 # next js
 .next
+
+# environment variables
+.env
+.env.local
